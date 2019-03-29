@@ -53,3 +53,24 @@ background-color: black;
     
     
     }
+    .fa{
+        text-align: center;
+        width: 175px;
+        height: 125px;
+        font-size: 36px;
+        text-decoration: none;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        /* for instagram site */
+
+    }
+    .fa:hover{
+        box-shadow: 0px 0px 30px red;
+        opacity: 0.5;
+    }
+    .fa-instagram{
+        background-image: url(./images/instagram.jpeg);
+        /* background:grey; */
+        color: black;
+    }
